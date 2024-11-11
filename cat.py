@@ -38,6 +38,15 @@ class Cat:
         self.weight+=0.1
 
     def stats(self):
-        print
+        print(f"Your cat's name is {self.name} and it is {self.colour}. Age:{self.age}, Energy:{self.energy}, Intelligence:{self.intelligence}, Weight:{self.weight}")
 
 
+def check(self):
+    if self.age>20:
+        return False
+    elif self.energy<5:
+        return False
+    elif self.weight<5 or self.weight>30:
+        return False
+    else:
+        return True
